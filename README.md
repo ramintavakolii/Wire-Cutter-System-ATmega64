@@ -7,6 +7,7 @@ This repository contains the implementation of a wire cutter system using the AT
 - **Final_Project_Report.pdf**: A detailed report of the project including the design, components used, and the functionality.
 - **proteus file**: The Proteus simulation file for the project.
 - **project.c**: The C code for the project.
+- **images/simulation.png**: An image of the Proteus simulation.
 
 ## Components Used
 
@@ -33,6 +34,10 @@ This repository contains the implementation of a wire cutter system using the AT
 4. **Display Update**: The current length of the wire being processed is displayed on the 7-segment displays.
 
 5. **Cutter Activation**: When the current length reaches the specified length, the microcontroller toggles the output pin connected to the LED, signaling the cutter to activate. This process repeats for the specified number of wires.
+
+## Simulation Image
+
+![Simulation Image](images/simulation.png)
 
 ## Code Overview
 
